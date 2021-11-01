@@ -7,7 +7,9 @@ using The following design patterns :</p>
 <li>State</li>
 </ul>
 
-<h4>for further reading about design pattern :</h4> 
+<b>for further reading about design pattern :</b> 
 <a href="https://refactoring.guru/design-patterns">Refractoring guru</a>
 
-by GriouiAyoub
+<br>
+<hr>
+Solution by  GriouiAyoub
