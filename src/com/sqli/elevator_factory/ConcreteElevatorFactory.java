@@ -4,14 +4,14 @@ import com.sqli.elevators.Elevator;
 
 public class ConcreteElevatorFactory extends ElevatorFactory {
 
-    private static ConcreteElevatorFactory  INSTANCE = null ;
+    private static ConcreteElevatorFactory  instance = null ;
 
-    private ConcreteElevatorFactory(){};
+    private ConcreteElevatorFactory(){}
 
     public static ConcreteElevatorFactory getINSTANCE() {
-        if(INSTANCE==null)
-            INSTANCE = new ConcreteElevatorFactory();
-        return INSTANCE;
+        if(instance==null)
+            instance = new ConcreteElevatorFactory();
+        return instance;
     }
 
     @Override
